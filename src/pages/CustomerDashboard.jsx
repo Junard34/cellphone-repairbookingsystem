@@ -66,7 +66,6 @@ const CustomerDashboard = ({
                 onChange={(e) => onNewBookingChange({ ...newBooking, issue: e.target.value })}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               >
-                <option value="">Select an issue</option>
                 <option value="Cracked Screen">Cracked Screen</option>
                 <option value="Battery Replacement">Battery Replacement</option>
                 <option value="Charging Issue">Charging Issue</option>
@@ -145,3 +144,4 @@ const CustomerDashboard = ({
 };
 
 export default CustomerDashboard;
+
